@@ -104,7 +104,7 @@ Both VXI-11 and prologix support large replies and large commands and requests. 
 
 ### Prologix and pyvisa
 
-Support for prologix in pyvisa has been pending since a long time. Depending on your situation, you can try to bypass it by faking the prologix service as being a raw socket service (ex `TCPIP::192.168.7.206::1234::SOCKET`), and then mix the SCPI commands with the correct `+++` commands.
+Support for prologix in pyvisa has been pending since a long time. Depending on your situation, you can try to bypass it by faking the prologix service as being a raw socket service (ex `TCPIP::192.168.7.206::1234::SOCKET`), and then mix the SCPI commands with the correct `++` commands.
 
 ---
 
